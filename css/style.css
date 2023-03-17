@@ -127,3 +127,55 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+/* Da desktop a smartphone */
+
+@media screen and (max-width: 50000px) {
+    
+    .container {
+        width: 100%;
+    }
+
+    .steps {
+        width: 100%;
+    }
+
+    .col img {
+        min-width: 200px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .body {
+        background-color: black;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        width: 200px;
+    }
+
+    .col img {
+        min-width: 200px;
+        height: auto;
+    }
+}
+
