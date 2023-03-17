@@ -131,25 +131,11 @@ img {
 
 /* Da desktop a smartphone */
 
-@media screen and (max-width: 50000px) {
-    
+
+@media screen and (max-width: 768px) {
     .container {
         width: 100%;
     }
-
-    .steps {
-        width: 100%;
-    }
-
-    .col img {
-        min-width: 200px;
-        height: auto;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-
 }
 
 @media screen and (max-width: 480px) {
@@ -169,13 +155,21 @@ img {
         align-items: center;
     }
 
-    .col {
-        width: 200px;
+    .card {
+        margin-bottom: 1.5rem;
+        padding: 1rem;
     }
 
-    .col img {
-        min-width: 200px;
-        height: auto;
+    .lessons .col,
+    .steps .col,
+    .why-us .col-right {
+        width: 100% ;
     }
-}
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+} 
 
