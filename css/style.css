@@ -147,12 +147,21 @@ img {
     .container {
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
     }
 
     .row {
         flex-direction: column;
         align-items: center;
+    }
+
+    .steps {
+        margin: 3rem 0 0;
+    }
+
+    .why-us {
+        margin-bottom: 0;
+        padding-top: 3rem;
+        background-color: black;
     }
 
     .card {
